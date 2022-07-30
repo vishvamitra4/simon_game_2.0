@@ -1,0 +1,75 @@
+body
+{
+  background-color: #011F3F;
+  margin: 30px;
+}
+
+.instruction{
+  width: 70%;
+  margin : 20px auto;
+}
+h1
+{
+  font-family: 'Press Start 2P', cursive;
+  color : white;
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 30px;
+}
+
+h2
+{
+  color: red;
+  font-size: 1.8rem;
+  font-family: 'Press Start 2P', cursive;
+  padding : 20px;
+  padding-bottom: 0px;
+}
+.instruction li
+{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding : 20px;
+  color: white;
+}
+
+.instruction button
+{
+  width: 70%;
+  padding: 15px;
+  margin-left: 15%;
+  font-family: 'Press Start 2P', cursive;
+  background-color: green;
+  border : 1px solid green;
+  color: white;
+}
+.instruction button a
+{
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width : 600px)
+{
+  .instruction{
+    width: 100%;
+    margin : 0 auto;
+  }
+
+  h1
+  {
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+
+  h2
+  {
+    font-size: 1rem;
+    padding : 5px;
+    padding-top: 20px;
+  }
+  .instruction li
+  {
+    padding : 5px;
+  }
+}

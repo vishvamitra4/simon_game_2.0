@@ -1,0 +1,127 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  max-height: 60vh;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.score
+{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+  margin : 40px auto;
+  padding : 20px;
+}
+.score button
+{
+  padding : 20px;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  background-color: green;
+  border-radius: 3px;
+  border : 1px solid green;
+}
+button.quit
+{
+  background-color : red;
+  border : 1px solid red;
+  color : black;
+}
+.score .sc
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #FEF2BF;
+}
+
+footer
+{
+  color: white;
+  font-size : 20px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+@media only screen and (max-width : 700px)
+{
+
+  .score
+  {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin : 40px auto;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .score button
+  {
+    font-size: 1rem;
+  }
+
+  .score .sc
+  {
+    font-size: 70%;
+  }
+  .sc , .btn1
+  {
+    width: 45%;
+    text-align: left;
+  }
+}
